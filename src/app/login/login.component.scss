@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login {
+    padding: 2rem;
+    max-width: 400px;
+    width: 140%;
+    background-color: #a871a5;
+    // border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.h3 {
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+ button {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}

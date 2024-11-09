@@ -1,0 +1,24 @@
+<div class="container">
+    <form (ngSubmit)="onLogin()">
+        <div class="login">
+            <h1 class="h3 mb-4 fw-bold">Login</h1>
+            <div class="email">
+                <label for="exampleFormControlInput1" class="label-email">Email</label>
+                <input type="email" class="form-control" id="caixa-email" [(ngModel)]="email" name="email" required
+                    placeholder="nome@exemplo.com">
+            </div>
+
+            <label for="inputPassword5" class="form-label">Senha</label>
+            <input type="password" id="caixa-senha" class="form-control" [(ngModel)]="senha" name="senha" required
+                aria-describedby="passwordHelpBlock">
+            <div class="form-check text-start my-3">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Lembrar-me
+                </label>
+            </div>
+            <button class="btn btn-primary py-2" type="submit">Entrar</button>
+            <p class="mt-4 mb-3 text-body-secondary">&copy; 2024</p>
+        </div>
+    </form>
+</div>
